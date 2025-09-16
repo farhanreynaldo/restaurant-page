@@ -5,6 +5,8 @@ import "./styles.css";
 
 const navButtons = document.querySelectorAll("nav li");
 
+loadHome();
+
 navButtons.forEach((button) => {
   button.addEventListener("click", (e) => {
     if (button.textContent === "Home") {
